@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"	
+    android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#dd80ff00"	
+    >
+    <LinearLayout 
+        android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        >
+        <Button
+	        android:id="@+id/fragconn_btnconn"
+	        android:layout_width="match_parent"
+			android:layout_height="@dimen/act4height"
+			android:text="터미널 연결되지 않음"
+			android:textSize="@dimen/act4txtsize"
+			android:layout_weight="1"		
+	        />
+        <Button
+            android:id="@+id/fragconn_btnminimize"
+	        android:layout_width="match_parent"
+			android:layout_height="@dimen/act4height"
+			android:text="1"
+			android:textSize="@dimen/act4txtsize"
+			android:layout_weight="9"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fragconn_layoutconn" 
+        android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"		
+        >
+        <Spinner 
+            android:id="@+id/fragconn_spinterminal"
+            android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:textSize="12sp"			
+            />
+        <GridLayout
+            android:id="@+id/fragconn_layoutserial" 
+            android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:columnCount="2"			
+            >
+            <TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="장치: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spindev"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="Baudrate: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spinbr"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="Data bits: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spindbs"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="Parity: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spinparity"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="Stop: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spinstop"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="Flow: "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spinflow"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        	<TextView
+	            android:layout_width="@dimen/act1_dlgtxt_width"
+	            android:layout_height="wrap_content"
+	            android:text="TimeOut(ms): "
+	            android:gravity="end" 
+	            />
+        	<Spinner
+        	    android:id="@+id/fragconn_spintimeout"
+	            android:layout_width="@dimen/act1_dlgspin_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"           
+	            />
+        </GridLayout>
+
+    </LinearLayout>
+</LinearLayout>

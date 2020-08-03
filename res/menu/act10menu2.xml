@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Check Menu" >
+    	<menu>
+    	    <group android:id="@+id/act10group" 
+    	        android:checkableBehavior="all" >
+    	        <item android:id="@+id/act10bigfont" android:title="BigFont" />    	        
+    	    </group>
+    	</menu>
+    	<menu>
+    	    <group android:id="@+id/act10group2" android:checkableBehavior="single" >
+    	        <item android:id="@+id/act10red" android:title="Red" android:checked="true" />
+    	        <item android:id="@+id/act10green" android:title="Green" />
+    	        <item android:id="@+id/act10blue" android:title="Blue" /> 
+    	        <item android:id="@+id/act10yellow" android:title="Yellow" />   	            
+    	    </group>
+    	    
+    	</menu>
+    </item>
+</menu>

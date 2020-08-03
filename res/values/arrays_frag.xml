@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="crc8" >
+        <item>CRC8</item>
+        <item>CRC8_CDMA2000</item>
+        <item>CRC8_DARC</item>
+        <item>CRC8_DVB_S2</item>
+        <item>CRC8_EBU</item>
+        <item>CRC8_I_CODE</item>
+        <item>CRC8_ITU</item>
+        <item>CRC8_MAXIM</item>
+        <item>CRC8_ROHC</item>
+        <item>CRC8_WCDMA</item>
+        <item>CRC8_AUTOSAR</item>
+        <item>CRC8_BLUETOOTH</item>
+        <item>CRC8_LTE</item>
+    </string-array>
+    <string-array name="crc16" >
+        <item>CRC16_CCITT_FALSE</item>
+        <item>CRC16_ARC</item>
+        <item>CRC16_AUR_CCITT</item>
+        <item>CRC16_BUYPASS</item>
+        <item>CRC16_CDMA2000</item>
+        <item>CRC16_DDS_110</item>
+        <item>CRC16_DECT_R</item>
+        <item>CRC16_DECT_X</item>
+        <item>CRC16_DNP</item>
+        <item>CRC16_EN_13757</item>
+        <item>CRC16_GENIBUS</item>
+        <item>CRC16_MAXIM</item>
+        <item>CRC16_MCRF4XX</item>
+        <item>CRC16_RIELLO</item>
+        <item>CRC16_T10_DIF</item>
+        <item>CRC16_TELEDISK</item>
+        <item>CRC16_TMS37157</item>
+        <item>CRC16_USB</item>
+        <item>CRC_A</item>
+        <item>CRC16_KERMIT</item>
+        <item>CRC16_MODBUS</item>
+        <item>CRC16_X_25</item>
+        <item>CRC16_XMODEM</item>
+    </string-array>
+    <string-array name="crc32" >
+        <item>CRC32</item>
+        <item>CRC32_BZIP2</item>
+        <item>CRC32_C</item>
+        <item>CRC32_D</item>
+        <item>CRC32_MPEG2</item>
+        <item>CRC32_POSIX</item>
+        <item>CRC32_Q</item>
+        <item>CRC32_JAMCRC</item>
+        <item>CRC32_XFER</item>
+    </string-array>
+    <string-array name="userdefined" >
+        <item>PROTOCOL_DE</item>
+        <item>고정값</item>
+    </string-array>
+    <string-array name="terminal" >
+        <item>None</item>
+        <item>Serial(COM)</item>
+        <item>TCP Client</item>
+        <item>TCP Server</item>
+        <item>UDP Client</item>
+        <item>UDP Server</item>        
+    </string-array>
+    <string-array name="baudrate" >        
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>921600</item>           
+    </string-array>
+    <string-array name="databit" >        
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>               
+    </string-array>
+    <string-array name="paritybit" >        
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Mark</item>
+        <item>Space</item>                      
+    </string-array> 
+    <string-array name="stopbit" >        
+        <item>1</item>
+        <item>2</item>
+        <item>1.5</item>                       
+    </string-array>
+    <string-array name="flow" >        
+        <item>None</item>
+        <item>Xon/Xoff</item>
+        <item>RTS/CTS</item>                      
+    </string-array>
+    <string-array name="timeout" >        
+        <item>300</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>               
+    </string-array>
+</resources>

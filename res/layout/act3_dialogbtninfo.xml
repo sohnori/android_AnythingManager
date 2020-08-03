@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5pt"
+    >
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 1번: "
+            android:gravity="end" 
+            />
+        <TextView
+            android:id="@+id/act1txtbtn1"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content"             
+            />
+
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="버튼 2번: "
+    		android:gravity="end" 
+            />
+        <TextView 
+            android:id="@+id/act1txtbtn2"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="버튼 3번: "
+    		android:gravity="end" 
+            />
+        <TextView 
+            android:id="@+id/act1txtbtn3"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="버튼 4번: "
+    		android:gravity="end" 
+            />
+        <TextView 
+            android:id="@+id/act1txtbtn4"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="버튼 5번: "
+    		android:gravity="end" 
+            />
+        <TextView 
+            android:id="@+id/act1txtbtn5"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="버튼 6번: "
+    		android:gravity="end" 
+            />
+        <TextView 
+            android:id="@+id/act1txtbtn6"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 7번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn7"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 8번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn8"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 9번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn9"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 10번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn10"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 11번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn11"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 12번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn12"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="버튼 13번: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtbtn13"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="참조: "
+            android:gravity="end" 
+            />
+
+        <TextView
+            android:id="@+id/act1txtinvnote"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+</LinearLayout>
+    

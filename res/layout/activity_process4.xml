@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actp4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#505050"    
+    tools:context="com.daeeun.sohnori.anythingmanager.MyProcess4Activity"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="vertical"
+        >
+        <FrameLayout 
+	        android:id="@+id/act4frame1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	       
+	        />	
+    	<FrameLayout 
+	        android:id="@+id/act4frame2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        />
+    	<FrameLayout 
+	        android:id="@+id/act4frame3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        
+	        />
+    	<FrameLayout 
+	        android:id="@+id/act4frame4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	       
+	        />
+    </LinearLayout>
+</ScrollView>

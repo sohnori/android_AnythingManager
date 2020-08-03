@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#505050" >        
+    <item android:id="@+id/inv_dass"
+        android:title="@string/str_dass"
+        android:icon="@drawable/ic_launcher"        
+        android:alphabeticShortcut="a" >        
+    </item>
+    
+    <item android:id="@+id/inv_e_p3"
+        android:title="@string/str_e_p3"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_e_p5"
+        android:title="@string/str_e_p5"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_hans"
+        android:title="@string/str_hans"
+        android:icon="@drawable/ic_launcher" >       
+    </item>
+    
+    <item android:id="@+id/inv_hexp"
+        android:title="@string/str_hexp"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_ekos"
+        android:title="@string/str_ekos"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_will"
+        android:title="@string/str_will"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_abbi"
+        android:title="@string/str_abbi"
+        android:icon="@drawable/ic_launcher" >       
+    </item>
+    
+    <item android:id="@+id/inv_refu"
+        android:title="@string/str_refu"
+        android:icon="@drawable/ic_launcher"       
+         >        
+    </item>
+    
+    <item android:id="@+id/inv_rems"
+        android:title="@string/str_rems"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_sung"
+        android:title="@string/str_sung"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_ecos"
+        android:title="@string/str_ecos"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+    
+    <item android:id="@+id/inv_smai"
+        android:title="@string/str_smai"
+        android:icon="@drawable/ic_launcher" >        
+    </item>
+       
+</menu>

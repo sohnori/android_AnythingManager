@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5pt"
+    >
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="설비구분: "
+            android:gravity="end" 
+            />
+        <Spinner
+            android:id="@+id/act1spinequiptype"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content"             
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+
+        <TextView
+            android:layout_width="@dimen/act1_dlgtxt_width"
+            android:layout_height="wrap_content"
+            android:text="설비종류: "
+            android:gravity="end" 
+            />
+        <Spinner
+            android:id="@+id/act1spinequip"
+            android:layout_width="@dimen/act1_dlgspin_width"
+            android:layout_height="wrap_content"             
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="설비모델: "
+    		android:gravity="end" 
+            />
+        <Spinner 
+            android:id="@+id/act1spinmodel"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout        
+        android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"    	
+        >
+        <TextView            
+            android:layout_width="@dimen/act1_dlgtxt_width"
+    		android:layout_height="wrap_content"
+    		android:text="ID: "
+    		android:gravity="end" 
+            />
+        <EditText 
+            android:id="@+id/act1editequipid"
+	        android:layout_width="@dimen/act1_dlgspin_width"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:text="0" 		        
+	        android:singleLine="true"
+	        android:scrollHorizontally="false"
+	        android:selectAllOnFocus="true"
+	        android:ellipsize="end"
+	        android:inputType="number"	
+	        android:maxLength="3"
+            />
+    </LinearLayout>    
+</LinearLayout>
+    

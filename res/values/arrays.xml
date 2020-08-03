@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="etccmd" >
+        <item>패킷송신강제_TXPK</item>
+        <item>펌웨어버전_INFO(FVER)</item>
+        <item>로라리셋카운터_RCNT</item>
+        <item>로라리셋_LRST</item>
+        <item>로라서브리셋_LSRS</item>                    
+    </string-array>
+    <string-array name="lomm" >
+        <item>미사용</item>
+        <item>IPL(SKT)</item>
+        <item>F1M(SKT)</item>
+        <item>노드링크(자가망)</item>                    
+    </string-array>    
+    <string-array name="inmd" >
+        <item>미사용</item>
+        <item>사용_노멀</item>
+        <item>사용_마스터로컬</item>
+        <item>사용_마스터로컬로라</item>                    
+    </string-array>
+    <string-array name="zbmd" >
+        <item>미사용</item>
+        <item>1ch슬레이브</item>
+        <item>2ch슬레이브</item>
+        <item>4ch슬레이브</item>
+        <item>1ch마스터로컬</item>
+        <item>2ch마스터로컬</item>
+        <item>4ch마스터로컬</item>
+        <item>1ch마스터로컬로라</item>
+        <item>2ch마스터로컬로라</item>
+        <item>4ch마스터로컬로라</item>                    
+    </string-array>
+    <string-array name="pvem" >
+        <item>미사용</item>
+        <item>온보드_슬레이브</item>
+        <item>외부장치_슬레이브</item>
+        <item>온보드_마스터로컬</item>
+        <item>외부장치_마스터로컬</item>
+        <item>온보드_마스터로컬로라</item>
+        <item>외부장치_마스터로컬로라</item>                    
+    </string-array>
+    <string-array name="enable" >
+        <item>0번</item>
+        <item>1번</item>
+        <item>2번</item>
+        <item>3번</item>
+        <item>4번</item>
+        <item>5번</item>
+        <item>6번</item>
+        <item>7번</item>
+        <item>8번</item>
+        <item>9번</item>
+        <item>10번</item>
+        <item>11번</item>
+        <item>12번</item>
+        <item>13번</item>
+        <item>14번</item>
+        <item>15번</item>                    
+    </string-array>
+    <string-array name="equipmentrems" > 
+        <item>NONE</item>               
+        <item>태양광단상</item>
+        <item>태양광삼상</item>
+        <item>태양열강제순환식</item>
+        <item>태양열자연순환식</item>
+        <item>지열</item>
+        <item>풍력</item>
+        <item>연료전지</item>
+        <item>ESS</item>             
+    </string-array>
+    <string-array name="iotdevice" >
+        <item>NONE</item>
+        <item>IoT 기본</item>
+        <item>IoT REMS</item>
+    </string-array>
+    <string-array name="nullvalue" >
+        <item>NONE</item>                    
+    </string-array>
+    <string-array name="equiptype" >
+        <item>NONE</item>        
+        <item>인버터</item>
+        <item>Lora Modem</item>
+        <item>태양광가로등</item>
+        <item>기타</item>               
+    </string-array>
+    <string-array name="equipmentinv" >
+        <item>NONE</item>         
+        <item>다쓰테크</item>
+        <item>동양 E_P3</item>
+        <item>동양 E_P5</item>
+        <item>한솔</item>
+        <item>헥스파워</item>
+        <item>에코스</item>
+        <item>윌링스</item>
+        <item>ABB</item>
+        <item>REFU_sol</item>
+        <item>썬그로우</item>
+        <item>REMS</item>
+        <item>동이에코스</item>
+        <item>SMA</item>
+        <item>벨츠(헵시바)</item>
+        <item>G2파워</item>        
+    </string-array>
+    <string-array name="equipmentlora" >
+        <item>NONE</item>
+        <item>SKT</item>
+        <item>Nodelink</item>                             
+    </string-array>
+    <string-array name="loraskt_model" >
+        <item>NONE</item>         
+        <item>아이피엘</item>
+        <item>에프원미디어</item>              
+    </string-array>
+    <string-array name="equipmentpvlm" >
+        <item>NONE</item>
+        <item>옵티마이저</item>                   
+    </string-array>   
+    <string-array name="equipmentetc" >
+        <item>NONE</item>
+        <item>test</item>         
+        <item></item>              
+    </string-array>
+    <string-array name="invdef_model" >
+        <item>NONE</item>         
+        <item>단상</item>
+        <item>삼상</item>              
+    </string-array>
+    <string-array name="invhexp_model" >
+        <item>NONE</item>         
+        <item>단상</item>
+        <item>삼상</item>
+        <item>H30xxS/ML</item>                     
+    </string-array>
+    <string-array name="invwill_model" >
+        <item>NONE</item>         
+        <item>UVHT시리즈</item>
+        <item>M시리즈</item>
+        <item>SL시리즈</item>
+    </string-array>    
+</resources>

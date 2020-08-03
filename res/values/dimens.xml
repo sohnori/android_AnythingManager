@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="act1_dlgspin_width">130dp</dimen>
+    <dimen name="act1_dlgtxt_width">100dp</dimen>
+	<dimen name="act11txtsizetest">20sp</dimen>
+	<dimen name="act1txtsize">18sp</dimen>
+	<dimen name="act1txtsize2">14sp</dimen>
+	<dimen name="act4height">30dp</dimen>
+	<dimen name="act4txtsize">12sp</dimen>
+</resources>

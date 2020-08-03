@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daeeun.sohnori.anythingmanager"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="25" />
+    <!-- 진동 기능을 사용하기 위해 사용허가를 정의한다. -->
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<!-- 네트워크를 사용하기 위해 사용허가를 정의한다. -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-feature android:name="android.hardware.usb.host" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.daeeun.sohnori.anythingmanager.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                            
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess1Activity" android:label="@string/app_name1"
+            android:screenOrientation="portrait" > </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess2Activity" android:label="@string/app_name2"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess3Activity" android:label="@string/app_name3"
+            android:screenOrientation="portrait"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess4Activity" android:label="@string/app_name4"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess5Activity" android:label="@string/app_name5"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess6Activity" android:label="@string/app_name6"
+            android:screenOrientation="portrait" > </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess7Activity" android:label="@string/app_name7"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess8Activity" android:label="@string/app_name8"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess9Activity" android:label="@string/app_name9"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess10Activity" android:label="@string/app_name10"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess11Activity" android:label="@string/app_name11"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess12Activity" android:label="@string/app_name12"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess13Activity" android:label="@string/app_name13"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess14Activity" android:label="@string/app_name14"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess15Activity" android:label="@string/app_name15"> </activity>
+        <activity android:name="com.daeeun.sohnori.anythingmanager.MyProcess16Activity" android:label="@string/app_name16"> </activity>                
+    </application>
+
+</manifest>

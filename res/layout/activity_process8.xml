@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actp8"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#505050"
+    tools:context="com.daeeun.sohnori.anythingmanager.MyProcess8Activity" >
+	
+    <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"         
+         >
+         <Button
+	        android:id="@+id/act8btnhome"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"       
+	        android:layout_marginEnd="20dp"
+	        android:layout_weight="1"
+	        android:onClick="mOnClick"
+	        android:text="@string/mainpage"
+	        />
+         <Button
+	        android:id="@+id/act8btntest"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"       
+	        android:layout_marginEnd="20dp"
+	        android:layout_weight="1"	        
+	        android:text="page1"
+	        />
+         <Button
+	        android:id="@+id/act8btntest2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"       
+	        android:layout_marginEnd="20dp"
+	        android:layout_weight="1"	        
+	        android:text="page2"
+	        />
+         <Button
+	        android:id="@+id/act8btntest3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"       
+	        android:layout_marginEnd="20dp"
+	        android:layout_weight="1"	        
+	        android:text="page3"
+	        />     	
+    </LinearLayout>
+    
+    <!-- 릴러티브 레이아웃은 아이디를 반드시 지정해야한다. -->	
+    <RelativeLayout
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:baselineAligned="true"
+        >            
+	     <Button
+	        android:id="@+id/btnp8test"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"       
+	        android:layout_marginEnd="20dp"	        
+	        android:text="test"
+	        />
+	     <TextView 
+	        android:id="@+id/chulsu"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/btnp8test"
+	        android:textSize="30sp"
+	        android:text="철수"
+	        />
+     </RelativeLayout>
+	     
+     <AbsoluteLayout
+         android:id="@+id/actp8test1" 
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content"
+         android:visibility="invisible"                 
+         >
+         <TextView 
+             android:layout_width="wrap_content" 
+         	 android:layout_height="wrap_content"
+         	 android:layout_x="30dp"
+         	 android:layout_y="50dp"         	 
+         	 android:textSize="18sp"
+         	 android:text="(30, 50)"
+             />
+         <TextView 
+             android:layout_width="wrap_content" 
+         	 android:layout_height="wrap_content"
+         	 android:layout_x="120dp"
+         	 android:layout_y="100dp"
+         	 android:textSize="20sp"
+         	 android:text="(160, 100)"
+             />
+         <TextView 
+             android:layout_width="wrap_content" 
+         	 android:layout_height="wrap_content"
+         	 android:layout_x="160dp"
+         	 android:layout_y="200dp"
+         	 android:textSize="30sp"
+         	 android:text="(180, 200)"
+             />
+     </AbsoluteLayout>
+     
+     <TableLayout 
+         android:id="@+id/actp8test2" 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:visibility="invisible" >
+         <TableRow>
+            <TextView android:text="국어" android:textSize="20sp" android:padding="10sp" />
+            <TextView android:text="영어" android:textSize="20sp" android:padding="10sp" />
+            <TextView android:text="수학" android:textSize="20sp" android:padding="10sp" />
+         </TableRow>                  
+         <TableRow>
+            <TextView android:text="80" android:textSize="30sp" android:padding="10sp" />
+            <TextView android:text="92" android:textSize="30sp" android:padding="10sp" />
+            <TextView android:text="76" android:textSize="30sp" android:padding="10sp" />
+         </TableRow> 
+         
+     </TableLayout>
+    
+     <LinearLayout
+         android:id="@+id/actp8test3" 
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:visibility="invisible"         
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="사자"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="호랑이"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:text="코끼리"
+             />
+     	
+     </LinearLayout>     
+</LinearLayout>

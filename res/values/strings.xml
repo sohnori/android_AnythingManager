@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 메인 액티비티 문자열 -->
+    <string name="app_name">AnythingManager</string>
+    <string name="app_name1">설비통신프로그램</string>
+    <string name="app_name2">ThingPlugAPI</string>
+    <string name="app_name3">IoT셋팅</string>
+    <string name="app_name4">통신프로그램</string>
+    <string name="app_name5">프로그램5</string>
+    <string name="app_name6">프로그램6</string>
+    <string name="app_name7">프로그램7</string>
+    <string name="app_name8">프로그램8</string>
+    <string name="app_name9">프로그램9</string>
+    <string name="app_name10">프로그램10</string>
+    <string name="app_name11">프로그램11</string>
+    <string name="app_name12">프로그램12</string>
+    <string name="app_name13">프로그램13</string>
+    <string name="app_name14">프로그램14</string>
+    <string name="app_name15">프로그램15</string>
+    <string name="app_name16">프로그램16</string>
+    <string name="action_version">Version</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="act11txttest">텍스트 테스트입니다.</string>
+    
+    <string name="mainpage">Home</string>    
+    <!-- 터미널 문자열 -->
+    <string name="str_terminaldev">터미널: </string>
+    <string name="str_terminalbr">통신속도: </string>
+    <string name="str_terminaldata">데이터 비트: </string>
+    <string name="str_terminalparity">패리티 비트: </string>
+    <string name="str_terminalstop">정지비트: </string>
+    <string name="str_terminalflow">흐름제어: </string>
+    <string name="str_terminaltimeout">타임아웃(ms): </string>
+    <!-- 설비 문자열 -->
+    <string name="str_equiptype">설비구분: </string>
+    <string name="str_equip">설비종류: </string>
+    <string name="str_equipmodel">설비모델: </string>
+    <string name="str_equipid">설비ID: </string>    
+    <!-- 인버터 문자열 -->    
+    <string name="str_dass">다쓰테크</string>
+    <string name="str_e_p3">동양 E_P3</string>
+    <string name="str_e_p5">동양 E_P5</string>
+	<string name="str_hans">한솔</string>
+	<string name="str_hexp">헥스파워</string>
+	<string name="str_ekos">에코스</string>
+	<string name="str_will">윌링스</string>
+	<string name="str_abbi">ABB</string>
+	<string name="str_refu">REFU sol</string>
+	<string name="str_rems">REMS</string>
+	<string name="str_sung">썬그로우</string>
+	<string name="str_ecos">동이에코스</string>
+	<string name="str_smai">SMA</string>
+	<!-- 인버터 모델 문자열 -->
+	<string name="model_default">모델</string>
+	<string name="model_single">단상</string>
+	<string name="model_three">삼상</string>
+	<string name="model_hexp_h">H30xxS/ML</string>
+	<string name="model_will_m">M시리즈</string>
+	<string name="model_will_s">SL시리즈</string>
+	<string name="model_will_t">UVHT시리즈</string>	
+</resources>
